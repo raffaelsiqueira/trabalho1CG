@@ -38,7 +38,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -93,8 +92,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &lt;math.h&gt;</code><br />
 <code>#include &lt;GL/glut.h&gt;</code><br />
 <code>#include &lt;GL/gl.h&gt;</code><br />
-<code>#include &quot;<a class="el" href="globals_8h_source.html">globals.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="intersections_8h_source.html">intersections.h</a>&quot;</code><br />
+<code>#include &quot;globals.h&quot;</code><br />
+<code>#include &quot;intersections.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="draw_8h_source.html">draw.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for main.cpp:</div>
@@ -112,11 +111,11 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:acb6683099edadd91eef4d9f53dffba8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structvertex.html">vertex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#acb6683099edadd91eef4d9f53dffba8a">v</a></td></tr>
+<tr class="memitem:acb6683099edadd91eef4d9f53dffba8a"><td class="memItemLeft" align="right" valign="top">vertex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#acb6683099edadd91eef4d9f53dffba8a">v</a></td></tr>
 <tr class="separator:acb6683099edadd91eef4d9f53dffba8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4cea9312cdf558ae2a2ba8d9bf8f6f8"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="structvertex.html">vertex</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#af4cea9312cdf558ae2a2ba8d9bf8f6f8">points</a></td></tr>
+<tr class="memitem:af4cea9312cdf558ae2a2ba8d9bf8f6f8"><td class="memItemLeft" align="right" valign="top">vector&lt; vertex &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#af4cea9312cdf558ae2a2ba8d9bf8f6f8">points</a></td></tr>
 <tr class="separator:af4cea9312cdf558ae2a2ba8d9bf8f6f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7bc430d08a35444f49e8966919e8e5c"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="structline.html">line</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#af7bc430d08a35444f49e8966919e8e5c">lines</a></td></tr>
+<tr class="memitem:af7bc430d08a35444f49e8966919e8e5c"><td class="memItemLeft" align="right" valign="top">vector&lt; line &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#af7bc430d08a35444f49e8966919e8e5c">lines</a></td></tr>
 <tr class="separator:af7bc430d08a35444f49e8966919e8e5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -147,6 +146,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Vector to store the lines drawn on the screen </p>
 
 <p>Definition at line <a class="el" href="main_8cpp_source.html#l00029">29</a> of file <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
 
@@ -158,7 +158,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">vector&lt;<a class="el" href="structline.html">line</a>&gt; lines</td>
+          <td class="memname">vector&lt;line&gt; lines</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -173,7 +173,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">vector&lt;<a class="el" href="structvertex.html">vertex</a>&gt; points</td>
+          <td class="memname">vector&lt;vertex&gt; points</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -188,7 +188,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structvertex.html">vertex</a> v</td>
+          <td class="memname">vertex v</td>
         </tr>
       </table>
 </div><div class="memdoc">

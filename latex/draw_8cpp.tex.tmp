@@ -10,9 +10,9 @@ Include dependency graph for draw.\+cpp\+:
 \item 
 void \hyperlink{draw_8cpp_ac158bfc1571fb83c31d7035c8497a5a3}{my\+Display} (void)
 \item 
-void \hyperlink{draw_8cpp_a96a82cbd94b7b052ea565b6de8407dfa}{draw\+Vertex} (\hyperlink{structvertex}{vertex} \hyperlink{main_8cpp_acb6683099edadd91eef4d9f53dffba8a}{v})
+void \hyperlink{draw_8cpp_a96a82cbd94b7b052ea565b6de8407dfa}{draw\+Vertex} (vertex \hyperlink{main_8cpp_acb6683099edadd91eef4d9f53dffba8a}{v})
 \item 
-void \hyperlink{draw_8cpp_aa2c256c4342cd083c23a336adc809ae3}{draw\+Line} (\hyperlink{structline}{line} l)
+void \hyperlink{draw_8cpp_aa2c256c4342cd083c23a336adc809ae3}{draw\+Line} (line l)
 \item 
 void \hyperlink{draw_8cpp_aaa77b8a3d263fa509acaa9c153b9be8c}{my\+Mouse} (int button, int state, int x, int y)
 \item 
@@ -31,7 +31,7 @@ Raffael Siqueira
 \index{draw\+Line@{draw\+Line}!draw.\+cpp@{draw.\+cpp}}
 \subsubsection[{\texorpdfstring{draw\+Line(line l)}{drawLine(line l)}}]{\setlength{\rightskip}{0pt plus 5cm}void draw\+Line (
 \begin{DoxyParamCaption}
-\item[{{\bf line}}]{l}
+\item[{line}]{l}
 \end{DoxyParamCaption}
 )}\hypertarget{draw_8cpp_aa2c256c4342cd083c23a336adc809ae3}{}\label{draw_8cpp_aa2c256c4342cd083c23a336adc809ae3}
 
@@ -42,7 +42,7 @@ Definition at line 38 of file draw.\+cpp.
 \index{draw\+Vertex@{draw\+Vertex}!draw.\+cpp@{draw.\+cpp}}
 \subsubsection[{\texorpdfstring{draw\+Vertex(vertex v)}{drawVertex(vertex v)}}]{\setlength{\rightskip}{0pt plus 5cm}void draw\+Vertex (
 \begin{DoxyParamCaption}
-\item[{{\bf vertex}}]{v}
+\item[{vertex}]{v}
 \end{DoxyParamCaption}
 )}\hypertarget{draw_8cpp_a96a82cbd94b7b052ea565b6de8407dfa}{}\label{draw_8cpp_a96a82cbd94b7b052ea565b6de8407dfa}
 

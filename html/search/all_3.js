@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['intersections_2ecpp',['intersections.cpp',['../intersections_8cpp.html',1,'']]],
-  ['intersections_2eh',['intersections.h',['../intersections_8h.html',1,'']]]
+  ['points',['points',['../main_8cpp.html#af4cea9312cdf558ae2a2ba8d9bf8f6f8',1,'main.cpp']]]
 ];
