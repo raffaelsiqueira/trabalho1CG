@@ -1,15 +1,15 @@
 
-output: main.o AVL.o Node.o
-	g++ main.cpp AVL.cpp Node.cpp -lGL -lGLU -lglut  -o output
+output: main.o globals.o intersections.o draw.o
+	g++ main.cpp intersections.cpp draw.cpp -lGL -lGLU -lglut  -o output
 
 main.o: main.cpp
 	g++ -c main.cpp -lGL -lGLU -lglut
 
-AVL.o: AVL.cpp AVL.h
-	g++ -c AVL.cpp
+intersections: intersections.h intersections.cpp globals.h
+	g++ -c intersections.cpp
 
-Node.o: Node.cpp Node.h
-	g++ -c Node.cpp
+draw: draw.h draw.cpp globals.h
+	g++ -c draw.cpp -lGL -lGLU -lglut
 
 clean:
 	rm *.o output

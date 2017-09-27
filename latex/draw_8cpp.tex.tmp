@@ -1,0 +1,87 @@
+\hypertarget{draw_8cpp}{}\section{draw.\+cpp File Reference}
+\label{draw_8cpp}\index{draw.\+cpp@{draw.\+cpp}}
+{\ttfamily \#include \char`\"{}globals.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}intersections.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}draw.\+h\char`\"{}}\\*
+Include dependency graph for draw.\+cpp\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{draw_8cpp_ac158bfc1571fb83c31d7035c8497a5a3}{my\+Display} (void)
+\item 
+void \hyperlink{draw_8cpp_a96a82cbd94b7b052ea565b6de8407dfa}{draw\+Vertex} (\hyperlink{structvertex}{vertex} \hyperlink{main_8cpp_acb6683099edadd91eef4d9f53dffba8a}{v})
+\item 
+void \hyperlink{draw_8cpp_aa2c256c4342cd083c23a336adc809ae3}{draw\+Line} (\hyperlink{structline}{line} l)
+\item 
+void \hyperlink{draw_8cpp_aaa77b8a3d263fa509acaa9c153b9be8c}{my\+Mouse} (int button, int state, int x, int y)
+\item 
+void \hyperlink{draw_8cpp_a631696ca6a7d57f00a5331b0aeafcee2}{my\+Init} (void)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Intersection Points \begin{DoxyAuthor}{Author}
+Raffael Siqueira 
+\end{DoxyAuthor}
+
+
+\subsection{Function Documentation}
+\index{draw.\+cpp@{draw.\+cpp}!draw\+Line@{draw\+Line}}
+\index{draw\+Line@{draw\+Line}!draw.\+cpp@{draw.\+cpp}}
+\subsubsection[{\texorpdfstring{draw\+Line(line l)}{drawLine(line l)}}]{\setlength{\rightskip}{0pt plus 5cm}void draw\+Line (
+\begin{DoxyParamCaption}
+\item[{{\bf line}}]{l}
+\end{DoxyParamCaption}
+)}\hypertarget{draw_8cpp_aa2c256c4342cd083c23a336adc809ae3}{}\label{draw_8cpp_aa2c256c4342cd083c23a336adc809ae3}
+
+
+Definition at line 38 of file draw.\+cpp.
+
+\index{draw.\+cpp@{draw.\+cpp}!draw\+Vertex@{draw\+Vertex}}
+\index{draw\+Vertex@{draw\+Vertex}!draw.\+cpp@{draw.\+cpp}}
+\subsubsection[{\texorpdfstring{draw\+Vertex(vertex v)}{drawVertex(vertex v)}}]{\setlength{\rightskip}{0pt plus 5cm}void draw\+Vertex (
+\begin{DoxyParamCaption}
+\item[{{\bf vertex}}]{v}
+\end{DoxyParamCaption}
+)}\hypertarget{draw_8cpp_a96a82cbd94b7b052ea565b6de8407dfa}{}\label{draw_8cpp_a96a82cbd94b7b052ea565b6de8407dfa}
+
+
+Definition at line 25 of file draw.\+cpp.
+
+\index{draw.\+cpp@{draw.\+cpp}!my\+Display@{my\+Display}}
+\index{my\+Display@{my\+Display}!draw.\+cpp@{draw.\+cpp}}
+\subsubsection[{\texorpdfstring{my\+Display(void)}{myDisplay(void)}}]{\setlength{\rightskip}{0pt plus 5cm}void my\+Display (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{draw_8cpp_ac158bfc1571fb83c31d7035c8497a5a3}{}\label{draw_8cpp_ac158bfc1571fb83c31d7035c8497a5a3}
+
+
+Definition at line 15 of file draw.\+cpp.
+
+\index{draw.\+cpp@{draw.\+cpp}!my\+Init@{my\+Init}}
+\index{my\+Init@{my\+Init}!draw.\+cpp@{draw.\+cpp}}
+\subsubsection[{\texorpdfstring{my\+Init(void)}{myInit(void)}}]{\setlength{\rightskip}{0pt plus 5cm}void my\+Init (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{draw_8cpp_a631696ca6a7d57f00a5331b0aeafcee2}{}\label{draw_8cpp_a631696ca6a7d57f00a5331b0aeafcee2}
+
+
+Definition at line 115 of file draw.\+cpp.
+
+\index{draw.\+cpp@{draw.\+cpp}!my\+Mouse@{my\+Mouse}}
+\index{my\+Mouse@{my\+Mouse}!draw.\+cpp@{draw.\+cpp}}
+\subsubsection[{\texorpdfstring{my\+Mouse(int button, int state, int x, int y)}{myMouse(int button, int state, int x, int y)}}]{\setlength{\rightskip}{0pt plus 5cm}void my\+Mouse (
+\begin{DoxyParamCaption}
+\item[{int}]{button, }
+\item[{int}]{state, }
+\item[{int}]{x, }
+\item[{int}]{y}
+\end{DoxyParamCaption}
+)}\hypertarget{draw_8cpp_aaa77b8a3d263fa509acaa9c153b9be8c}{}\label{draw_8cpp_aaa77b8a3d263fa509acaa9c153b9be8c}
+
+
+Definition at line 55 of file draw.\+cpp.
+
